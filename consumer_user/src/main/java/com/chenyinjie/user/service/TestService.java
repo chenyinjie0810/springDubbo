@@ -15,4 +15,9 @@ public class TestService {
 
     @Reference
     private TicketService ticketService;
+
+
+    public String getTicket(){
+        return ticketService.getTicket();
+    }
 }
